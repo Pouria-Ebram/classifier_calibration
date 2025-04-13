@@ -114,4 +114,10 @@ calibrated_model = CalibratedClassifierCV(base_estimator=clf, method='sigmoid', 
 calibrated_model_iso = CalibratedClassifierCV(base_estimator=clf, method='isotonic', cv='prefit')
 
 calibrated_model.fit(X_val, y_val)
+```
 
+---
+## 📖 Further Reading
+
+- 🔗 [Calibration – scikit-learn docs](https://scikit-learn.org/stable/modules/calibration.html)
+- 🔗 [Isotonic Regression Overview – Wikipedia](https://en.wikipedia.org/wiki/Isotonic_regression)
